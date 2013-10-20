@@ -96,7 +96,7 @@ Date.prototype.format = function(pattern){
 					}
 					buffer+=pattern[i];
 					i++;					
-				}while(true);
+				}while(i < pattern.length);
 			}
 		}else{
 			buffer+=pattern[i];
